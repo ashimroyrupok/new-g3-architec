@@ -52,7 +52,7 @@ nav ul li a{
 /* banner section */
 
 .banner{
-    width: 550px;
+    max-width:  550px;
     text-align: center;
     margin: 0px auto;
     color: var(--dark-01, #131313);
@@ -92,7 +92,7 @@ nav ul li a{
 
 /* teams section */
 main{
-    width: 1400px;
+    max-width:1400px;
     margin: 0px auto;
 }
 .teams-container{
@@ -166,20 +166,25 @@ main{
     nav>ul{
         margin-top: 10px;
     }
+    .banner{
+        
+        text-align: center;
+        margin: 0 auto;
+    }
     .banner-head{
         font-size: 2rem;
-        padding-right: 130px;
+        
 
     }
     .banner-discription{
         
-        padding-right: 180px;
+        
         margin: 10px;
     
 }  
 
 .btn{
-    margin-left: -110px;
+   
 }
 
 .teams-img{
@@ -187,16 +192,17 @@ main{
 }
 .teams-container{
     flex-direction: column;
-    padding: 10px 20px;
+    padding: 10px 10px;
     align-items: normal;
     padding-left: px;
 }
 .teams-contant{
 
-    margin-left: 0px;
+    margin-left: -5px;
 }
 .teams-head{
     font-size: 2rem;
+    margin-top: 10px;
 }
 
 
